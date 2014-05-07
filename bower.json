@@ -1,0 +1,19 @@
+{
+  "name": "applinks",
+  "version": "0.0.0",
+  "authors": [
+    "Brendan Irvine-Broque <brendanib@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "html5-boilerplate": "~4.3.0"
+  }
+}
