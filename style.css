@@ -2,6 +2,8 @@
 
 div#container {
 	padding: 1rem;
+	max-width: 400px;
+	margin: 0 auto;
 	box-sizing: border-box;
 }
 
@@ -11,7 +13,7 @@ div#container {
 	width: 100%;
 }
 
-#artist {
+#title {
 	font-weight: 400;
 	line-height: 1.5;
 	color: #333;
@@ -19,7 +21,7 @@ div#container {
 	margin-bottom: 0;
 }
 
-#title {
+#artist {
 	font-weight: 300;
 	line-height: 0;
 	color: #666;
@@ -29,6 +31,8 @@ div#container {
 	list-style: none;
 	padding-left: 0px;
 	margin-top: 2rem;
+	max-width: 400px;
+	margin: 0 auto;
 }
 
 #applink-list li {
@@ -45,7 +49,7 @@ div#container {
 }
 
 #applink-list a {
-	color: #999;
+	color: #5a93ff;
 	text-decoration: none;
 	font-size: 14px;
 	line-height: 2;
