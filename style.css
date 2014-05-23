@@ -64,4 +64,6 @@ div#container {
 
 #applink-list img {
 	width: 24px;
+	border-radius: 2px;
+	margin-right: 0.35rem;
 }
