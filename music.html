@@ -7,6 +7,13 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <link rel="stylesheet" href="/bower_components/html5-boilerplate/css/normalize.css">
+        <link rel="stylesheet" href="/bower_components/html5-boilerplate/css/main.css">
+        <link rel="stylesheet" href="style.css">
+
+        <!-- Toggle on and off to check things: -->
+
+
 
         <!-- iOS -->
 
@@ -24,6 +31,13 @@
             <meta property="al:ios:url" content="deezer://www.deezer.com/en/album/1312875" />
             <meta property="al:ios:app_store_id" content="292738169" />
             <meta property="al:ios:app_name" content="Deezer" />
+
+
+            <!-- Pandora -->
+            <meta property="al:ios:url" content="pandorav2:/createStation?artist=Coldplay" />
+            <meta property="al:ios:app_store_id" content="284035177" />
+            <meta property="al:ios:app_name" content="Pandora" />
+
 
             <!-- iTunes -->
             <meta property="al:ios:url" content="itms://itunes.apple.com/us/album/mylo-xyloto/id726372830" />
@@ -57,6 +71,38 @@
 
     </head>
     <body>
-        <p>This is my new album.</p>
+        <div id="container">
+            <img id="artwork" src="/images/myloxylo.jpg">
+
+            <h1 id="artist">Coldplay</h1>
+            <h2 id="title">Mylo Xyloto</h2>
+        </div>
+
+            <ul id="applink-list">
+                <li>
+                    <a href="spotify:album:2R7iJz5uaHjLEVnMkloO18">
+                        <img src="/images/spotify-icon.png">
+                        <span>Open in Spotify</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="rdio://www.rdio.com/artist/Coldplay/album/Mylo_Xyloto/">
+                        <img src="/images/rdio-icon.png">
+                        <span>Open in Rdio</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="itms://itunes.apple.com/us/album/mylo-xyloto/id726372830">
+                        <img src="/images/itunes-icon.jpg">
+                        <span>Open in iTunes</span>
+                    </a>
+                </li>          
+                <li>
+                    <a href="pandorav2:/createStation?artist=Coldplay">
+                        <img src="/images/pandora-icon.jpg">
+                        <span>Open in Pandora</span>
+                    </a>
+                </li>                        
+            </ul>
     </body>
 </html>
