@@ -15,6 +15,7 @@
   ],
   "dependencies": {
     "html5-boilerplate": "~4.3.0",
-    "golden-grid-system": "*"
+    "golden-grid-system": "*",
+    "detectizr": "~2.0.0"
   }
 }

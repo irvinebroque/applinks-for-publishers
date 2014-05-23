@@ -1,4 +1,10 @@
+html.android #itunes {
+	display: none;
+}
 
+body {
+	font-family: "helvetica neue";
+}
 
 div#container {
 	padding: 1rem;
